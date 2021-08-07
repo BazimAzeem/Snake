@@ -13,9 +13,6 @@ function setup() {
   score = 0;
 
   var cnv = createCanvas(25 * res, 25 * res + scoreSpace);
-  var x = (windowWidth - width) / 2;
-  var y = (windowHeight - height) / 2;
-  cnv.position(x, y);
 
   frameRate(10);
 
